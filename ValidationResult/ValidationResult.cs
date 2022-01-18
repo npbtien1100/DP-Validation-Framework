@@ -29,10 +29,6 @@ namespace ValidationFramework
 
         public abstract bool IsLeafResult();
 
-        // public abstract ValidationResult GetResultFor(string propertyName);
-
-        // public abstract List<ValidationResult> GetAllResults();
-
         public abstract Dictionary<string, List<ValidationFailure>> GetAllFailuresFor(string propertyName);
 
         public abstract Dictionary<string, List<ValidationFailure>> GetAllFailures();
