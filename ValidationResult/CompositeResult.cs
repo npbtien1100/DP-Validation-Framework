@@ -61,20 +61,6 @@ namespace ValidationFramework
             return new Dictionary<string, List<ValidationFailure>>();
         }
 
-        // public override List<ValidationResult> GetAllResults()
-        // {
-        //     if (errors.Values.Any())
-        //         return errors.Values.ToList();
-        //     return new List<ValidationResult>();
-        // }
-
-        // public override ValidationResult GetResultFor(string propertyName)
-        // {
-        //     if (errors.ContainsKey(propertyName))
-        //         return errors[propertyName];
-        //     return null;
-        // }
-
         public override bool IsLeafResult()
         {
             return false;
