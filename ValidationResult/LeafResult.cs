@@ -27,16 +27,6 @@ namespace ValidationFramework
             return new Dictionary<string, List<ValidationFailure>>();
         }
 
-        // public override List<ValidationResult> GetAllResults()
-        // {
-        //     throw new NotImplementedException();
-        // }
-
-        // public override ValidationResult GetResultFor(string propertyName)
-        // {
-        //     throw new NotImplementedException();
-        // }
-
         public override bool IsLeafResult()
         {
             return true;
